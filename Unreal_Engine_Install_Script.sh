@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ## Unreal Engine Install Script Version 1.0 Ubuntu Derivatives
 # Check for updates
 echo "Checking for updates..."
