@@ -6,7 +6,7 @@ sudo apt-get update; sudo apt-get dist-upgrade -y
 
 # Installing Dependencies
 echo "Installing dependencies..."
-sudo apt-get install -y build-essential mono-{xbuild,dmcs,gmcs} libmono-{corlib4.0,system-data-datasetextensions4.0-cil,system-web-extensions4.0-cil,system-management4.0-cil,system-xml-linq4.0-cil} cmake dos2unix clang xdg-user-dirs libqt4-dev git
+sudo apt-get install -y build-essential mono-{xbuild,dmcs,gmcs} libmono-{corlib4.0,system-data-datasetextensions4.0-cil,system-web-extensions4.0-cil,system-management4.0-cil,system-xml-linq4.0-cil,microsoft-build-tasks-v4.0-4.0-cil} cmake dos2unix clang xdg-user-dirs libqt4-dev git
 
 # Obtain Source
 echo "Obtaining source through Github..."
