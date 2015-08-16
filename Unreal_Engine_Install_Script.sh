@@ -10,7 +10,7 @@ sudo apt-get install -y build-essential mono-{xbuild,dmcs,gmcs} libmono-{corlib4
 
 # Obtain Source
 echo "Obtaining source through Github..."
-git clone https://github.com/3dluvr/UnrealEngine.git
+git clone https://github.com/EpicGames/UnrealEngine
 cd UnrealEngine; ./Setup.sh
 
 # Building Unreal 4 Editor
